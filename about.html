@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | ABM Pharmacy</title>
+    <!-- Tailwind CSS v3 Play CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .heading-font { font-family: 'Outfit', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 flex flex-col min-h-screen">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="heading-font text-2xl font-bold text-emerald-600">ABM <span class="text-slate-700">PHARMACY</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8 font-medium">
+                    <a href="index.html" class="text-slate-600 hover:text-emerald-600 transition">Home</a>
+                    <a href="about.html" class="text-emerald-600 border-b-2 border-emerald-600 pb-1">About Us</a>
+                    <a href="prescription.html" class="text-slate-600 hover:text-emerald-600 transition">Upload Prescription</a>
+                    <a href="medicines.html" class="text-slate-600 hover:text-emerald-600 transition">Medicines</a>
+                    <a href="contact.html" class="text-slate-600 hover:text-emerald-600 transition">Contact</a>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="tel:0768961778" class="bg-emerald-100 text-emerald-700 px-4 py-2 rounded-full font-semibold text-sm flex items-center hover:bg-emerald-200 transition">
+                        📞 Call: 076 896 1778
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Us Content Area -->
+    <main class="flex-grow max-w-5xl mx-auto w-full py-16 px-4 sm:px-6 lg:px-8">
+        
+        <!-- Header Section -->
+        <div class="text-center mb-16">
+            <h1 class="heading-font text-4xl font-bold text-slate-900 sm:text-5xl mb-4">About ABM Pharmacy</h1>
+            <p class="text-lg text-slate-500 max-w-2xl mx-auto">Your premium and trusted partner for genuine pharmaceutical products, healthcare essentials, and wellness advice.</p>
+        </div>
+
+        <!-- Vision, Mission & Values Grid -->
+        <div class="grid md:grid-cols-2 gap-12 items-center mb-20">
+            <div>
+                <h2 class="heading-font text-3xl font-bold text-slate-900 mb-6">Who We Are</h2>
+                <p class="text-slate-600 leading-relaxed mb-4">
+                    At ABM Pharmacy, we place your health and well-being above everything else. Managed by fully qualified professionals, we ensure that every medication distributed through our counter undergoes rigid quality checks and safety assessments.
+                </p>
+                <p class="text-slate-600 leading-relaxed">
+                    We are deeply committed to maintaining the highest standard of storage conditions, utilizing state-of-the-art temperature controls to protect the efficacy and potency of your prescription medicines.
+                </p>
+            </div>
+            <div class="bg-gradient-to-br from-emerald-800 to-slate-950 p-8 rounded-3xl text-white shadow-xl relative overflow-hidden">
+                <div class="absolute inset-0 bg-emerald-500/10 mix-blend-overlay"></div>
+                <h3 class="heading-font text-xl font-bold text-emerald-300 mb-4">Why Choose ABM Pharmacy?</h3>
+                <ul class="space-y-4 text-sm text-emerald-100/90">
+                    <li class="flex items-start gap-3">
+                        <span>✓</span>
+                        <p><strong>100% Genuine Inventory:</strong> Directly sourced from certified and authorized medical distributors.</p>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span>✓</span>
+                        <p><strong>NMRA Approved Standards:</strong> Operating fully in accordance with national safety guidelines and strict healthcare regulations.</p>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span>✓</span>
+                        <p><strong>Professional Supervision:</strong> Every single item is handled and verified by standard qualified pharmacists.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Our Promises Badges -->
+        <div class="bg-white rounded-2xl p-10 border border-slate-100 shadow-md grid sm:grid-cols-3 gap-8 text-center">
+            <div class="space-y-2">
+                <span class="text-4xl">🛡️</span>
+                <h4 class="heading-font text-lg font-bold text-slate-900">Certified Quality</h4>
+                <p class="text-sm text-slate-500">Every pill and wellness product we stock is guaranteed to be completely safe, authentic, and high-grade.</p>
+            </div>
+            <div class="space-y-2">
+                <span class="text-4xl">❄️</span>
+                <h4 class="heading-font text-lg font-bold text-slate-900">Optimal Cold Chain</h4>
+                <p class="text-sm text-slate-500">Our vaccines and temperature-sensitive biological medicines are constantly stored in strict standard cold chains.</p>
+            </div>
+            <div class="space-y-2">
+                <span class="text-4xl">💬</span>
+                <h4 class="heading-font text-lg font-bold text-slate-900">Express Support</h4>
+                <p class="text-sm text-slate-500">Fast, convenient responses via WhatsApp and phone to clear all your medical queries in no time.</p>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Simple Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-6 text-center text-sm border-t border-slate-800">
+        <p>© 2026 ABM Pharmacy. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
